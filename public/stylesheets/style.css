@@ -6,9 +6,33 @@ body {
   background: #f9f9f9;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headr {
+  text-align: center;
+  font-size:200%;
+  color: #555555;
+}
+
+h2 {
+  display: inline-block;
+}
+
 .search-container {
   margin-top: 6px;
   background: #ffffff;
+}
+
+#search_submit {
+  font-size: 18px;
+}
+
+#search {
+  font-size: 18px;
 }
 
 .search
@@ -50,12 +74,13 @@ body {
 }
 
 .dropbtn {
+  text-align: center;
   display: block;
   position: static;
   background-color: #CF5C3F;
   color: white;
   padding: 12px;
-  width: 1750px;
+  width: 1700px;
   font-size: 16px;
   border: 2px solid #CF5C3F;
   border-radius: 5px;
@@ -90,6 +115,10 @@ body {
   display: block;
 }
 
+.display_i {
+  color: #FFEB3B;
+}
+
 .display_j {
   color: #1B5E20;
 }
@@ -100,8 +129,6 @@ body {
 
 @media only screen and (min-width : 150px) and (max-width : 780px)
 {
-{}
-
   .search, .dropdown, .dropdown-content, .dropbtn
   {
     width: 96%;
